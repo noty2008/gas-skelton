@@ -1,0 +1,21 @@
+{
+  "name": "gas-skelton",
+  "version": "1.0.0",
+  "description": "Google Apps Script Skelton Code",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "npm run build && clasp push && clasp open",
+    "build": "shx mkdir -p lib && tsc && npm run copy",
+    "copy": "shx cp appsscript.json lib",
+    "clean": "shx rm -rf lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "noty2008",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-apps-script": "0.0.62",
+    "shelljs": "^0.8.4",
+    "shx": "^0.3.2",
+    "typescript": "^3.9.3"
+  }
+}
