@@ -1,7 +1,7 @@
 {
   "name": "gas-skelton",
   "version": "1.0.0",
-  "description": "Google Apps Script Skelton Code",
+  "description": "Skeleton code for writing Google Apps Script in TypeScript",
   "main": "lib/index.js",
   "scripts": {
     "start": "npm run build && clasp push && clasp open",
