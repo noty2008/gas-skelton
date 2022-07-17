@@ -1,4 +1,4 @@
-# Gas Skelton
+# GAS Skelton
 Skeleton code for writing Google Apps Script in TypeScript.
 ## caution
 Please install clasp globally.
@@ -29,5 +29,3 @@ $ npm i -g clasp
 ├── src - The directory where the TypeScript source is placed.
 └── tsconfig.json - TypeScript compilation settings.
 ```
-
-
